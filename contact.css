@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+    background-color:black ;
+    font-family: "Noto Sans Thai";
+}
+
+.contact{
+    display: block;
+    justify-content: center;
+    gap:30px;
+    flex-direction: column;
+    margin-top:20px;
+}
+.contact p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 30px;
+    
+
+}
+
+a{
+    color:yellow;
+}
+
+.Header{
+    margin-top: 20px;
+    font-size: 300%;
+}
+.ig{
+    display: flex;
+    gap:20px
+}
+.fb{
+    display: flex;
+    gap:20px
+}
+.phone{
+    display: flex;
+    gap:20px
+}
+
+img{
+    border-radius: 10px;
+    border: 5px solid beige;
+    border-style: hidden;
+}
+.gmail{
+    display: flex;
+    font-size:70px;
+}
